@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/probberechts/hexo-theme-cactus
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,9 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: https://github.com/TommySoya/TommySoya.github.io
+  tag: /tags/
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -27,26 +29,22 @@ nav:
 # You can optionally add a 'label' key to set the title attribute on the link. 
 # 'icon' value will be used as title when 'label' is missing.
 social_links:
-  -
+  - 
     icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
-  -
+    label: "GitHub"
+    link: "http://github.com/TommySoya"
+  - 
+    icon: bilibili
+    label: "BiliBili"
+    link: "https://space.bilibili.com/13285716"
+  - 
     icon: mail
-    link: mailto:name@email.com
-  -
+    label: "Email"
+    link: "51265903105@stu.ecnu.edu.cn"
+  - 
     icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    label: "mastodon.social"
+    link: "https://mastodon.social/@alice"
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -79,8 +77,8 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
-  end_year:
+  start_year: 2024
+  end_year: 2028
 
 # Customize the 404 page
 # Options:
@@ -107,7 +105,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/avatar.jpg
   gravatar: false
   grayout: true
 
@@ -138,7 +136,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: white
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -165,7 +163,7 @@ open_graph:
 
 # Enable MathJax support for Latex
 mathjax:
-  enabled: false
+  enabled: true
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
@@ -217,3 +215,7 @@ cdn:
   font_awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
   justified_gallery_css: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
   justified_gallery_js: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+
+# busuanzi visit count statistics
+busuanzi:
+  enable: true
